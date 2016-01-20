@@ -14,6 +14,7 @@ FIND_PATH(FFTW_INCLUDE_DIR fftw3.h
   /usr/pkgs64/include
   /usr/include
   /usr/local/include
+  /opt/local/include
 )
 
 FIND_LIBRARY(FFTW_LIBRARY
@@ -25,6 +26,7 @@ FIND_LIBRARY(FFTW_LIBRARY
   /usr/lib64
   /usr/lib
   /usr/local/lib
+  /opt/local/lib
   NO_DEFAULT_PATH
 )
 
